@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<el-aside width="15%">
+		<el-aside width="200px">
 			<el-col>
 				<div class="asideTop">
 					<div class="userPic">
@@ -8,11 +8,11 @@
 					</div>
 					<p class="username">admin</p>
 				</div>
-			    <el-menu default-active="2" text-color="#fff" active-text-color="#fefefe" class="el-menu-vertical-demo">
-			      <el-submenu index="1" background-color="red">
+			    <el-menu default-active="2" background-color="#243443" text-color="#fff" active-text-color="#fefefe" class="el-menu-vertical-demo">
+			      <el-submenu index="1">
 			        <template slot="title">
 			          <i class="el-icon-location"></i>
-			          <span>导航1</span>
+			          <span>导航11123</span>
 			        </template>
 			        <el-menu-item index="1-1">选项1</el-menu-item>
 			        <el-menu-item index="1-2">选项2</el-menu-item>
@@ -54,13 +54,14 @@
 
 <style scoped>
 	.el-aside {
-		height: 100%;
 		position: fixed;
 		top: 0;
+		bottom: 0;
 		left: 0;
+		z-index: 10;
 	}
 	.asideTop {
-		height: 36%;
+		height: 150px;
 		box-sizing: border-box;
 		overflow: hidden;
 	}
@@ -81,18 +82,20 @@
 	}
 	.el-col {
 		width: 100%;
-		height: 100%;
-		background-color: #243443;
+		background-color: #1D2A36;
+		position: absolute;
+		top: 0;
+		bottom: 0;
 	}
 	.el-menu {
-		height: 64%;
+		width: 100%;
 		border-right: none;
 		background-color: #2F4050;
+		position: absolute;
+		top: 150px;
+		bottom: 0;
 	}
-	.el-menu .el-submenu:hover {
+	.el-menu li {
 		background-color: #2F4050;
-	}
-	.el-menu .el-menu:hover {
-		background-color: red;
 	}
 </style>

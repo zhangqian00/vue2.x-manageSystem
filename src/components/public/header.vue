@@ -29,15 +29,17 @@
 
 <style>
 .header {
-	width: 85%;
+	/*width: 100%;*/
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
 	position: fixed;
 	top: 0;
+	left: 0;
 	right: 0;
-	background-color: green;
 }
 .header .el-dropdown {
 	height: 100%;
-	color: #fff;
+	color: #337AB7;
 	float: right;
 }
 .header .el-dropdown-link {
@@ -45,5 +47,8 @@
 	line-height: 50px;
 	cursor: pointer;
 	display: inline-block;
+}
+.el-dropdown-menu__item:hover {
+	background-color: red;
 }
 </style>
