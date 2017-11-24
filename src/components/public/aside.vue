@@ -72,10 +72,11 @@
 		background-color: #243443;
 	}
 	.el-menu {
+		width: 100%;
 		border-right: none;
 		background-color: #2F4050;
+		position: absolute;
+		top: 150px;
+		bottom: 0;
 	}
-	/*.el-menu .el-submenu:hover {
-		background-color: #2F4050;
-	}*/
 </style>

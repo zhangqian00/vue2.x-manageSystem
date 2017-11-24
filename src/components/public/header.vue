@@ -38,7 +38,7 @@
 }
 .header .el-dropdown {
 	height: 100%;
-	color: #fff;
+	color: #337AB7;
 	float: right;
 }
 .header .el-dropdown-link {
@@ -46,5 +46,8 @@
 	line-height: 50px;
 	cursor: pointer;
 	display: inline-block;
+}
+.el-dropdown-menu__item:hover {
+	background-color: red;
 }
 </style>

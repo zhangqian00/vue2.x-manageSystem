@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="home">
 		<el-container>
 		  <el-aside width="200px">	
 		  	<v-aside></v-aside>
@@ -28,7 +28,15 @@
 	.el-header {
 		padding: 0;
 	}
-	.el-aside {
-		height: 100%;
+	.home {
+		overflow: hidden;
+	}
+	.el-container {
+		overflow: hidden;
+		margin: 25px 0 0 100px;
+	}
+	.el-main {
+		padding: 0;
+		margin: 0;
 	}
 </style>
