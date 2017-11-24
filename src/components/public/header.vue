@@ -1,6 +1,6 @@
 <template>
 	<div class="header">
-		<el-header style="height: 50px;">
+		
 			<el-dropdown trigger="click">
 		      <span class="el-dropdown-link">
 		        下拉菜单<i class="el-icon-arrow-down el-icon--right"></i>
@@ -13,7 +13,7 @@
 		        <el-dropdown-item>蚵仔煎</el-dropdown-item>
 		      </el-dropdown-menu>
 		    </el-dropdown>
-		</el-header>
+		
 	</div>
 </template>
 
@@ -29,10 +29,11 @@
 
 <style>
 .header {
-	width: 85%;
-	position: fixed;
+	width: 100%;
+	height: 100%;
+	/*position: fixed;
 	top: 0;
-	right: 0;
+	right: 0;*/
 	background-color: green;
 }
 .header .el-dropdown {

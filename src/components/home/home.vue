@@ -1,9 +1,13 @@
 <template>
 	<div>
 		<el-container>
-		  <v-aside></v-aside>
+		  <el-aside width="200px">	
+		  	<v-aside></v-aside>
+		  </el-aside>
 		  <el-container>
-		    <v-header></v-header>
+		  	<el-header style="height: 50px;">
+		    	<v-header></v-header>
+		    </el-header>
 		    <el-main>Main</el-main>
 		  </el-container>
 		</el-container>
@@ -21,5 +25,10 @@
 </script>
 
 <style scoped>
-	
+	.el-header {
+		padding: 0;
+	}
+	.el-aside {
+		height: 100%;
+	}
 </style>
