@@ -31,10 +31,6 @@
 .header {
 	width: 100%;
 	height: 100%;
-	/*position: fixed;
-	top: 0;
-	right: 0;*/
-	background-color: green;
 }
 .header .el-dropdown {
 	height: 100%;

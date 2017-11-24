@@ -72,7 +72,7 @@
 		background-color: #243443;
 	}
 	.el-menu {
-		width: 100%;
+		width: 200px;
 		border-right: none;
 		background-color: #2F4050;
 		position: absolute;

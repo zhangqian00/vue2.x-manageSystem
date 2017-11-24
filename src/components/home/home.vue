@@ -26,14 +26,15 @@
 
 <style scoped>
 	.el-header {
-		padding: 0;
+		padding: 0 20px 0;
+		border-bottom: 1px solid #ccc;
+		background-color: #fff;
 	}
 	.home {
 		overflow: hidden;
 	}
 	.el-container {
 		overflow: hidden;
-		margin: 25px 0 0 100px;
 	}
 	.el-main {
 		padding: 0;
