@@ -1,19 +1,19 @@
 <template>
 	<div class="header">
 		
-			<el-dropdown trigger="click">
-		      <span class="el-dropdown-link">
-		        下拉菜单<i class="el-icon-arrow-down el-icon--right"></i>
-		      </span>
-		      <el-dropdown-menu slot="dropdown">
-		        <el-dropdown-item>黄金糕</el-dropdown-item>
-		        <el-dropdown-item>狮子头</el-dropdown-item>
-		        <el-dropdown-item>螺蛳粉</el-dropdown-item>
-		        <el-dropdown-item>双皮奶</el-dropdown-item>
-		        <el-dropdown-item>蚵仔煎</el-dropdown-item>
-		      </el-dropdown-menu>
-		    </el-dropdown>
-		
+		<el-dropdown trigger="click">
+	      <span class="el-dropdown-link">
+	        <i class="el-icon-setting"></i> 个人中心
+	      </span>
+	      <el-dropdown-menu slot="dropdown">
+	        <el-dropdown-item>修改资料</el-dropdown-item>
+	        <el-dropdown-item divided>退出登录</el-dropdown-item>
+	      </el-dropdown-menu>
+	    </el-dropdown>
+	    <!-- 消息提示 -->
+		<el-badge :value="200" :max="99" class="item xiaoxi">
+		  <i class="el-icon-message"></i>
+		</el-badge>
 	</div>
 </template>
 
@@ -31,6 +31,7 @@
 .header {
 	width: 100%;
 	height: 100%;
+	position: relative;
 }
 .header .el-dropdown {
 	height: 100%;
@@ -38,12 +39,22 @@
 	float: right;
 }
 .header .el-dropdown-link {
+	width: 84px;
 	height: 100%;
+	text-align: center;
 	line-height: 50px;
 	cursor: pointer;
 	display: inline-block;
 }
-.el-dropdown-menu__item:hover {
-	background-color: red;
+.el-badge {
+	cursor: pointer;
+	color: #337AB7;
+	position: absolute;
+	
+	top: 50%;
+	transform: translateY(-50%);
+}
+.xiaoxi {
+	right: 140px;
 }
 </style>

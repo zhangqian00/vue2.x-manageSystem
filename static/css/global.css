@@ -1,7 +1,42 @@
 html,body {
+	overflow: hidden;
+	background-color: #ededef;
+}
+html,body,p,ul,ol,dl,li,dt,dd,h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
-	height: 100%;
-	background-color: #ededef;
+	list-style: none;
+	font-size: 16px;
+	font-family: 宋体；
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: red;
+}
+input,img {
+	vertical-align: bottom;
+	border: 0 none;
+	outline-style: none;
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+    /* 版心 */
+
+.w {
+	width: 986px;
+	margin: 0 auto;
 }

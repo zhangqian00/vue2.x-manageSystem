@@ -6,24 +6,32 @@
 			</div>
 			<p class="username">admin</p>
 		</div>
-	    <el-menu default-active="2" text-color="#fff" active-text-color="#fefefe" class="el-menu-vertical-demo">
-	      <el-submenu index="1" background-color="red">
+	    <el-menu default-active="2" text-color="#fff" background-color="#2F4050" active-text-color="#ffd04b" class="el-menu-vertical-demo">
+	      <el-menu-item index="1">
+	        <i class="el-icon-menu"></i>
+	        <span slot="title">首页</span>
+	      </el-menu-item>
+	      <el-menu-item index="2">
+	        <i class="el-icon-search"></i>
+	        <span slot="title">分类管理</span>
+	      </el-menu-item>
+	      <el-submenu index="3">
 	        <template slot="title">
 	          <i class="el-icon-location"></i>
-	          <span>导航1</span>
+	          <span>讲师管理</span>
 	        </template>
-	        <el-menu-item index="1-1">选项1</el-menu-item>
-	        <el-menu-item index="1-2">选项2</el-menu-item>
-	        <el-menu-item index="1-3">选项3</el-menu-item>
+	        <el-menu-item index="3-1">选项1</el-menu-item>
+	        <el-menu-item index="3-2">选项2</el-menu-item>
+	        <el-menu-item index="3-3">选项3</el-menu-item>
 	      </el-submenu>
-	      <el-submenu index="2">
+	      <el-submenu index="4">
 	        <template slot="title">
-	          <i class="el-icon-location"></i>
-	          <span>导航2</span>
+	          <i class="el-icon-setting"></i>
+	          <span>课程管理</span>
 	        </template>
-	        <el-menu-item index="2-1">选项1</el-menu-item>
-	        <el-menu-item index="2-2">选项2</el-menu-item>
-	        <el-menu-item index="2-3">选项3</el-menu-item>
+	        <el-menu-item index="4-1">选项1</el-menu-item>
+	        <el-menu-item index="4-2">选项2</el-menu-item>
+	        <el-menu-item index="4-3">选项3</el-menu-item>
 	      </el-submenu>
 	    </el-menu>
 	  </el-col>
