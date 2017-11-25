@@ -1,7 +1,15 @@
-# my-project
+# 后台管理系统
 
-> A Vue.js project
+> 基于Vue.js2.x的后台管理系统
 
+### 技术栈
+- Vue2.x
+- Element-ui 一款基于vue的ui框架
+
+### 使用方法
+- 将项目clone或download至本地，执行下面命令
+	+ npm install  // 下载相关依赖包
+	+ npm run dev  // 开启服务器，即可看到效果页面
 ## Build Setup
 
 ``` bash
@@ -18,4 +26,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
