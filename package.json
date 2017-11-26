@@ -12,6 +12,7 @@
   "dependencies": {
     "echarts": "^3.8.5",
     "element-ui": "^2.0.5",
+    "mockjs": "^1.0.1-beta3",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
