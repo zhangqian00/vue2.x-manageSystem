@@ -2,9 +2,9 @@
 	<div class="header">
 		
 		<el-dropdown trigger="click">
-	      <span class="el-dropdown-link">
-	        <i class="el-icon-setting"></i> 个人中心
-	      </span>
+	        <span class="el-dropdown-link">
+	          <i class="el-icon-setting"></i> 个人中心
+	        </span>
 	      <el-dropdown-menu slot="dropdown">
 	        <el-dropdown-item>修改资料</el-dropdown-item>
 	        <el-dropdown-item divided>退出登录</el-dropdown-item>

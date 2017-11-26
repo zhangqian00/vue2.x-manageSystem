@@ -18,8 +18,6 @@ import Header from './components/public/header.vue'; // 头部
 Vue.component('v-header',Header);
 
 
-
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
