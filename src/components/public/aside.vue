@@ -6,7 +6,7 @@
 			</div>
 			<p class="username">admin</p>
 		</div>
-	    <el-menu default-active="2" text-color="#fff" background-color="#2F4050" active-text-color="#ffd04b" class="el-menu-vertical-demo">
+	    <el-menu :default-active="this.$props['isChose']" text-color="#fff" background-color="#2F4050" active-text-color="#ffd04b" class="el-menu-vertical-demo">
 	      <el-menu-item index="1">
 	        <i class="el-icon-menu"></i>
 	        <span slot="title">首页</span>
@@ -41,8 +41,12 @@
 	export default {
 		data() {
 			return {
-
+				 
 			}
+		},
+		props: ["isChose"],
+		created(){
+			
 		},
 		methods: {
 	      handleOpen(key, keyPath) {
