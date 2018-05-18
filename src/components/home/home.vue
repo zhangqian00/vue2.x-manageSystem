@@ -46,7 +46,7 @@
 				<el-row class="echartsPart">
 					<el-col :span="24">
 						<div class="grid-content bg-purple-dark">
-							<div id="echartsOne" ref="echartsOne" style="width: 500px;height: 400px"></div>
+							<div id="echartsOne" ref="echartsOne" style="width: 800px;height: 600px"></div>
 						</div>
 					</el-col>
 				</el-row>

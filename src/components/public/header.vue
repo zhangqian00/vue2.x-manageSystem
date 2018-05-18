@@ -7,7 +7,7 @@
 	        </span>
 	      <el-dropdown-menu slot="dropdown">
 	        <el-dropdown-item>修改资料</el-dropdown-item>
-	        <el-dropdown-item divided>退出登录</el-dropdown-item>
+	        <el-dropdown-item divided @click.native="logout">退出登录</el-dropdown-item>
 	      </el-dropdown-menu>
 	    </el-dropdown>
 	    <!-- 消息提示 -->
@@ -22,6 +22,17 @@
 		data() {
 			return {
 
+			}
+		},
+		methods: {
+			logout(){ // 退出登录事件
+				this.$confirm('确认退出登录？', '提示', {
+					confirmButtonText: '确定',
+					cancelButtonText: '取消',
+					type: 'warning'
+		        }).then(() => {
+		        	this.$router.push('/login');
+		        }).catch(() => {});
 			}
 		}
 	}

@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Login from '../components/login.vue'; // 登录页
 import Home from '../components/home/home.vue'; // 首页
 import UserCenter from '../components/userCenter/userCenter.vue'; // 个人中心
+import Fenlei from '../components/fenlei/fenlei.vue'; // 分类管理
 
 Vue.use(Router);
 
@@ -12,5 +13,6 @@ export default new Router({
     {name: 'login',path: '/login',component: Login}, // 登录页
     {name: 'home',path: '/home',component: Home}, // 首页
     {name: 'userCenter',path: '/userCenter',component: UserCenter}, // 个人中心
+    {name: 'fenlei',path: '/fenlei',component: Fenlei}, // 分类管理
   ]
 });

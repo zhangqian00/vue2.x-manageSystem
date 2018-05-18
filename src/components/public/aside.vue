@@ -7,11 +7,11 @@
 			<p class="username">admin</p>
 		</div>
 	    <el-menu :default-active="this.$props['isChose']" text-color="#fff" background-color="#2F4050" active-text-color="#ffd04b" class="el-menu-vertical-demo" router>
-	      <el-menu-item index="1" route="/">
+	      <el-menu-item index="1" route="/home">
 	        <i class="el-icon-menu"></i>
 	        <span slot="title">首页</span>
 	      </el-menu-item>
-	      <el-menu-item index="2" route="">
+	      <el-menu-item index="2" route="/fenlei">
 	        <i class="el-icon-search"></i>
 	        <span slot="title">分类管理</span>
 	      </el-menu-item>
