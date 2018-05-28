@@ -44,9 +44,9 @@
 				</el-row>
 				<!-- Echarts部分 -->
 				<el-row class="echartsPart">
-					<el-col :span="24">
+					<el-col :span="24" class=''>
 						<div class="grid-content bg-purple-dark">
-							<div id="echartsOne" ref="echartsOne" style="width: 800px;height: 600px"></div>
+							<div id="echartsOne" ref="echartsOne" style="width: 1000px;height: 600px;margin:20px auto 0;"></div>
 						</div>
 					</el-col>
 				</el-row>
@@ -198,5 +198,8 @@ import Echarts from 'echarts';
 		margin: 0 20px;
 		padding: 10px;
 		background-color: #fff;
+	}
+	.grid-content {
+		overflow: hidden;
 	}
 </style>
